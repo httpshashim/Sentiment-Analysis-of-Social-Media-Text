@@ -1,0 +1,33 @@
+# 📘 Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2025-07-13
+### Added
+- Initial sentiment analysis project using Python and NLP.
+- Loaded dataset of social media text (CSV format).
+- Installed and configured required libraries: `nltk`, `pandas`, `seaborn`, `matplotlib`, `wordcloud`.
+- Applied VADER SentimentIntensityAnalyzer to compute sentiment scores.
+- Added new columns to dataset: `scores`, `compound`, and `sentiment`.
+
+### Visualization
+- Generated a sentiment distribution bar chart using `seaborn`.
+- Created WordCloud visualizations for:
+  - Positive sentiments
+  - Negative sentiments
+  - Neutral sentiments
+
+### Output
+- Exported processed dataset (`sentiment_analysis_output.csv`) with sentiment labels.
+- Saved notebook/script with all analysis and visualizations.
+
+### Skipped
+- Time-based sentiment trends (timestamp data not available in dataset).
+
+---
+
+## [Upcoming]
+- Add interactive dashboard using Plotly or Streamlit.
+- Include support for live tweet analysis using Twitter API.
+- Add accuracy evaluation if labeled sentiment data is available.
+
